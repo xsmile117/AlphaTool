@@ -18,3 +18,7 @@ values = {'user': checkuser, 'pass': checkuserpassword}
 postdata = urllib.parse.urlencode(values) 
 page_code, page = myHttp.post(loginURL, postdata, loginheaders)
 ```
+
+
+
+转载、修改并鸣谢：[ _积木城池](https://www.cnblogs.com/zhxd-python/p/9471500.html)
