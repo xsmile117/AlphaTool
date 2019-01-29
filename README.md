@@ -1,8 +1,8 @@
 # AlphaTool
 Python下带session的urllib网页操作封装类
 
-
-Example
+```
+#Example
 
 myHttp=myHttp.MySession()
 loginURL = "http://XXXX"
@@ -17,3 +17,4 @@ loginheaders = {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9
 values = {'user': checkuser, 'pass': checkuserpassword}
 postdata = urllib.parse.urlencode(values) 
 page_code, page = myHttp.post(loginURL, postdata, loginheaders)
+```
